@@ -3,8 +3,7 @@ import defaults from './defaults'
 
 const directive = {
   inserted(el, binding) {
-
-    const options = { ...defaults, ...binding.value }
+    const options = { ...defaults, ...directive.initialDefaults, ...binding.value }
 
     binding.value = options
 
