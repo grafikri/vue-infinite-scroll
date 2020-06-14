@@ -6,10 +6,12 @@ const directive = {
 
     const options = { ...defaults, ...binding.value }
 
+    binding.value = options
+
     el.onscroll = (event) => {
       const status = getStatusChangesOfScroll(event.target, options)
       if (status !== "stable") {
-        status === "enter" ? binding?.value?.onEnter() : binding?.value?.onLeave()
+        status === "enter" ? binding.value.onEnter() : binding.value.onLeave()
       }
     }
   }

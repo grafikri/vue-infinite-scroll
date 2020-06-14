@@ -20,10 +20,10 @@ export default {
   name: 'App',
   methods: {
     onEnter() {
-      console.log("enter")
+      console.log("app enter")
     },
     onLeave() {
-      console.log("out")
+      console.log("app out")
     },
 
   }
