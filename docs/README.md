@@ -1,6 +1,4 @@
----
-sidebarDepth: 2
----
+
 
 ## Install
 1. Install package
