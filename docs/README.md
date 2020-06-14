@@ -9,10 +9,8 @@ npm i @grafikri/vue-infinite-scroll
 ```
 
 2. Register it as vue plugin
-::: warning
- Don't forget it register before create an Vue instance. 
-[here](https://vuejs.org/v2/guide/plugins.html#Using-a-Plugin)
-:::
+> Don't forget it register before create an Vue instance. [here](https://vuejs.org/v2/guide/plugins.html#Using-a-Plugin)
+
 ```js
 import VueInfiniteScroll from '@grafikri/vue-infinite-scroll'
 Vue.use(VueInfiniteScroll)
