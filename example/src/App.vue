@@ -1,7 +1,7 @@
 <template>
   <div id="app">
 
-    <div v-my-scroll="{onEnter, onLeave}"
+    <div v-infinite-scroll="{onEnter, onLeave}"
          style="margin: auto; width: 400px; height: 200px;overflow: auto;">
       Nibh integer ligula commodo diam suspendisse iaculis quisque elementum, consequat ultrices turpis natoque est habitasse eget porta rutrum, velit urna lacinia viverra pretium mauris ultricies. Sed taciti libero tellus conubia pretium consequat
       himenaeos litora, porta dictumst lorem ipsum ante ligula justo. Scelerisque lectus magnis penatibus mi elit mus lobortis, ridiculus ornare porta aptent curae quam tortor sed, est dictum nec tristique pellentesque iaculis. Non mi tincidunt
@@ -14,8 +14,6 @@
 </template>
 
 <script>
-
-
 export default {
   name: 'App',
   methods: {
