@@ -1,10 +1,10 @@
 const arrStatus = []
 
-export const getStatusChangesOfScroll = function (el) {
+export const getStatusChangesOfScroll = function (el, options) {
 
   const { scrollTop, clientHeight, scrollHeight } = el
   let { distance } = el
-  if (!distance) distance = 100
+  if (!distance) distance = options.distance
 
   let newVal
   let oldVal

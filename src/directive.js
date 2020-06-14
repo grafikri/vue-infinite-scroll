@@ -1,11 +1,15 @@
 import { getStatusChangesOfScroll } from './logic'
+import defaults from './defaults'
 
 const directive = {
   inserted(el, binding) {
+
+    const options = { ...defaults, ...binding.value }
+
     el.onscroll = (event) => {
-      const status = getStatusChangesOfScroll(event.target)
+      const status = getStatusChangesOfScroll(event.target, options)
       if (status !== "stable") {
-        binding.value(status)
+        status === "enter" ? binding?.value?.onEnter() : binding?.value?.onLeave()
       }
     }
   }
