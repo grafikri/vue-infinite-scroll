@@ -6,6 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/grafikri/vue-infinite-scroll"
+  },
+  "files": [
+    "src"
+  ],
   "keywords": [],
   "author": "Serhan Coşkun",
   "license": "ISC"
