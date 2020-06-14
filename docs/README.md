@@ -12,7 +12,6 @@ npm i @grafikri/vue-infinite-scroll
 ::: warning
  Don't forget it register before create an Vue instance. 
 [here](https://vuejs.org/v2/guide/plugins.html#Using-a-Plugin)
-You don't need specify callback methods in this case.
 :::
 ```js
 import VueInfiniteScroll from '@grafikri/vue-infinite-scroll'
@@ -51,14 +50,17 @@ export default {
 The distance means space between view's and scroll's bottom positions. The value of distance is pixel.
 
 *Default:* `200`
+> Required: `false`
 
 ### Methods
 
 #### onEnter
 The method when view's bottom appear.
+> Required: `true` on DOM
 
 #### onLeave
 The method when view's bottom leave.
+> Required: `true` on DOM
 
 
 
@@ -80,3 +82,27 @@ Vue.use(VueInfiniteScroll, { distance: 100 })
 </template>
 ```
 
+
+## Example
+
+```vue
+<template>
+  <div v-infinite-scroll="{ onEnter: handleEnter, onLeave: handleLeave, distance: 100 }" style="margin: auto; width: 400px; height: 200px; overflow: auto;">
+    This is a long content
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'MyCustomComponent',
+  methods: {
+    handleEnter() {
+      // do something
+    },
+    handleLeave() {
+      // do something
+    }
+  }
+}
+</script>
+```
