@@ -4,7 +4,9 @@
   "description": "Infitine scroll for vue",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
   "repository": {
     "type": "git",
@@ -15,9 +17,14 @@
   ],
   "keywords": [
     "vue",
+    "vuejs",
+    "directive",
     "infinite-scroll",
     "endless-scroll"
   ],
   "author": "Serhan Coşkun",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "vuepress": "^1.5.2"
+  }
 }
