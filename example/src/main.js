@@ -3,7 +3,8 @@ import App from './App.vue'
 
 Vue.config.productionTip = false
 
-import VueInfiniteScroll from '../../src/index'
+import VueInfiniteScroll from '@grafikri/vue-infinite-scroll'
+
 Vue.use(VueInfiniteScroll, { distance: 1 })
 
 new Vue({

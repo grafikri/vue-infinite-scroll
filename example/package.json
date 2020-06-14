@@ -6,6 +6,7 @@
     "serve": "vue-cli-service serve --skip-plugins @vue/cli-plugin-eslint"
   },
   "dependencies": {
+    "@grafikri/vue-infinite-scroll": "git+https://github.com/grafikri/vue-infinite-scroll.git#dev",
     "core-js": "^3.6.5",
     "vue": "^2.6.11"
   },
