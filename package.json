@@ -1,0 +1,30 @@
+{
+  "name": "@grafikri/vue-infinite-scroll",
+  "version": "0.0.1",
+  "description": "Infitine scroll for vue",
+  "main": "src/index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/grafikri/vue-infinite-scroll"
+  },
+  "files": [
+    "src"
+  ],
+  "keywords": [
+    "vue",
+    "vuejs",
+    "directive",
+    "infinite-scroll",
+    "endless-scroll"
+  ],
+  "author": "Serhan Coşkun",
+  "license": "ISC",
+  "devDependencies": {
+    "np": "^6.2.4",
+    "vuepress": "^1.5.2"
+  }
+}
