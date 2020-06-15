@@ -4,7 +4,6 @@
   "description": "Infitine scroll for vue",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
@@ -25,6 +24,7 @@
   "author": "Serhan Coşkun",
   "license": "ISC",
   "devDependencies": {
+    "np": "^6.2.4",
     "vuepress": "^1.5.2"
   }
 }
