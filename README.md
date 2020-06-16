@@ -1,4 +1,5 @@
 
+[DEMO & DOCS](https://vue-infinite-scroll.netlify.app/)
 
 ## Install
 1. Install package
@@ -58,47 +59,3 @@ The method when view's bottom appear.
 The method when view's bottom leave.
 > Required: `true` on DOM
 
-
-
-## Distance configuration
-You can configure <code>distance</code> either way when you register plugin or define as directive. Defining on DOM has more priority.
-
-### As global
-```js
-import VueInfiniteScroll from '@grafikri/vue-infinite-scroll'
-Vue.use(VueInfiniteScroll, { distance: 100 })
-```
-
-### As local
-```vue
-<template>
-  <div v-infinite-scroll="{ onEnter, onLeave, distance: 100 }">
-    This is long content
-  </div>
-</template>
-```
-
-
-## Example
-
-```vue
-<template>
-  <div v-infinite-scroll="{ onEnter: handleEnter, onLeave: handleLeave, distance: 100 }" style="margin: auto; width: 400px; height: 200px; overflow: auto;">
-    This is a long content
-  </div>
-</template>
-
-<script>
-export default {
-  name: 'MyCustomComponent',
-  methods: {
-    handleEnter() {
-      // do something
-    },
-    handleLeave() {
-      // do something
-    }
-  }
-}
-</script>
-```
