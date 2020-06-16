@@ -1,5 +1,5 @@
 
-[DEMO & DOCS](https://vue-infinite-scroll.netlify.app/)
+### [DEMO & DOCS](https://vue-infinite-scroll.netlify.app/)
 
 ## Install
 1. Install package
