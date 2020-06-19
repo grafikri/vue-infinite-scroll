@@ -1,6 +1,6 @@
 {
   "name": "@grafikri/vue-infinite-scroll",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Infitine scroll for vue",
   "main": "src/index.js",
   "scripts": {
