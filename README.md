@@ -1,6 +1,6 @@
 ### [DEMO & DOCS](https://vue-infinite-scroll.netlify.app/)
 
-![vue infinite scroll demo](https://media.giphy.com/media/J6PVWknXLdgputD6Bs/giphy.gif)
+![vue infinite scroll demo](https://media.giphy.com/media/RKBlxPP2G2orD2Udgi/giphy.gif)
 
 
 ## Install
