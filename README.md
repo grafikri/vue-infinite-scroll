@@ -2,7 +2,6 @@
 
 ![vue infinite scroll demo](https://media.giphy.com/media/RKBlxPP2G2orD2Udgi/giphy.gif)
 
-
 ## Install
 
 1. Install package
