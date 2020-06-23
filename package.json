@@ -5,8 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
-    "release": "np"
+    "docs:build": "vuepress build docs"
   },
   "repository": {
     "type": "git",
@@ -25,7 +24,6 @@
   "author": "Serhan Coşkun",
   "license": "ISC",
   "devDependencies": {
-    "np": "^6.2.4",
     "vuepress": "^1.5.2"
   }
 }
